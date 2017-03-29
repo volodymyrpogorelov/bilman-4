@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'namespace' => 'assman',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '9bb48f320d8c87c5304d9e8b2b443951',
+  'package' => 'modx',
+  'class' => 'modContentType',
+  'signature' => '52162ed55d761b2a963c61bd1c082952',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"Amazon Kindle eBook format","description":"Used by Kindle","mime_type":"application\\/vnd.amazon.ebook","file_extensions":".azw","headers":null,"binary":1}',
+);

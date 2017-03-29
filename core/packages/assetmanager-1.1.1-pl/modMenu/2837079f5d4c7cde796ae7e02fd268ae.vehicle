@@ -1,0 +1,50 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Action' => 
+    array (
+      'e8cbe0d91fbdcae5804ac58c4ddf7e2e' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'namespace',
+          1 => 'controller',
+        ),
+        'class' => 'modAction',
+        'object' => '{"id":null,"namespace":"assman","controller":"index","haslayout":1,"lang_topics":"assman:default","assets":"","help_url":"","action":0}',
+        'guid' => '3bf81dc018ee792b0f151ee7f8507bc8',
+        'native_key' => NULL,
+        'signature' => 'cd2636c4da70877bb67ea28d5a35546c',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'assman',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '34bc9d834b1af55a4ca221653d305c96',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '2837079f5d4c7cde796ae7e02fd268ae',
+  'native_key' => 'assman',
+  'object' => '{"text":"assman","parent":"components","action":0,"description":"assman_desc","icon":"","menuindex":0,"params":"","handler":"","permissions":"","namespace":"core","Action":{"action":0,"namespace":"assman","controller":"index","haslayout":1,"lang_topics":"assman:default","assets":"","help_url":""}}',
+);

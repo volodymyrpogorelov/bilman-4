@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'namespace' => 'assman',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8305cf0a145771c50e32c440a116ede6',
+  'package' => 'modx',
+  'class' => 'modContentType',
+  'signature' => 'de2c131200c560167d7d414dbb6a30dd',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"GIF","description":"GIF Image","mime_type":"image\\/gif","file_extensions":".gif","headers":null,"binary":1}',
+);

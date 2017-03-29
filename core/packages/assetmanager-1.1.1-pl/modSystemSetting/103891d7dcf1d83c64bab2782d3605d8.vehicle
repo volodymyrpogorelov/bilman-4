@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'assman',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'd4721419824509d7758a86670c488da4',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '103891d7dcf1d83c64bab2782d3605d8',
+  'native_key' => 'assman.library_path',
+  'object' => '{"key":"assman.library_path","value":"lib\\/","xtype":"textfield","namespace":"assman","area":"assman:default","editedon":null}',
+);

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'assman',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5119db05c01c135ad2913f1641bf6852',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'ce0fca7993d3667c4380eae022503099',
+  'native_key' => 'assman.autocreate_content_type',
+  'object' => '{"key":"assman.autocreate_content_type","value":"1","xtype":"combo-boolean","namespace":"assman","area":"assman:default","editedon":null}',
+);

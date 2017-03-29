@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'namespace' => 'assman',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c723f2c109c93925dbad7aca493b472b',
+  'package' => 'modx',
+  'class' => 'modContentType',
+  'signature' => '698c133f283042351648fd77028df16b',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"AIFF Audio","description":"AIFF Audio","mime_type":"audio\\/aiff","file_extensions":".aiff","headers":null,"binary":1}',
+);

@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'namespace' => 'assman',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1f477b8d159ec072acfb89b836fa77fc',
+  'package' => 'modx',
+  'class' => 'modContentType',
+  'signature' => 'c61ecd7bdff155b753bf8e1ebc4183c3',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"TIFF","description":"TIFF Image","mime_type":"image\\/tiff","file_extensions":".tiff","headers":null,"binary":1}',
+);

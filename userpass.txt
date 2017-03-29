@@ -1,0 +1,13 @@
+DB: 
+   database: modx
+   user:     modxu
+   pass:     62CGRVx0o2oTF6du
+ModxAdmin:
+   user: biladmin
+   pass: Bmw40Zaz1Lisp
+
+Theme:
+  1) cerulean
+  2) spacelab
+  3) cosmo
+  4) yeti

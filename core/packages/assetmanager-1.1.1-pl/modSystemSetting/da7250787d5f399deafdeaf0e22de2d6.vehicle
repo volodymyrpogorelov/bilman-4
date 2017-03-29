@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'assman',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '04c4fb97fef43cd7f0c49d87b4bf3431',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'da7250787d5f399deafdeaf0e22de2d6',
+  'native_key' => 'assman.version',
+  'object' => '{"key":"assman.version","value":"1.1.1","xtype":"textfield","namespace":"assman","area":"assman:default","editedon":null}',
+);

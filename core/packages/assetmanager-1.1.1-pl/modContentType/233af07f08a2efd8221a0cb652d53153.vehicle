@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'namespace' => 'assman',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2eb422b85808c8f69991a4bf9010ceca',
+  'package' => 'modx',
+  'class' => 'modContentType',
+  'signature' => '233af07f08a2efd8221a0cb652d53153',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"JPG","description":"JPG Image","mime_type":"image\\/jpeg","file_extensions":".jpg","headers":null,"binary":1}',
+);

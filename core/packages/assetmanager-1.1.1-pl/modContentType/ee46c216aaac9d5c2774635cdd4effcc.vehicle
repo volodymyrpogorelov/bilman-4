@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'namespace' => 'assman',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '06db653a15a0e34406ccdaf6baaa134c',
+  'package' => 'modx',
+  'class' => 'modContentType',
+  'signature' => 'ee46c216aaac9d5c2774635cdd4effcc',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"mp4 Movie","description":"mpeg 4 Movie","mime_type":"video\\/mp4","file_extensions":".mp4","headers":null,"binary":1}',
+);

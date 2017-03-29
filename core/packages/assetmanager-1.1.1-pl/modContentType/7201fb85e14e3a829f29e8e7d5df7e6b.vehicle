@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'namespace' => 'assman',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'fbbea1311702f381784d19eb20e8a0a0',
+  'package' => 'modx',
+  'class' => 'modContentType',
+  'signature' => '7201fb85e14e3a829f29e8e7d5df7e6b',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"Quicktime Movie","description":"Quicktime Movie","mime_type":"video\\/quicktime","file_extensions":".mov","headers":null,"binary":1}',
+);

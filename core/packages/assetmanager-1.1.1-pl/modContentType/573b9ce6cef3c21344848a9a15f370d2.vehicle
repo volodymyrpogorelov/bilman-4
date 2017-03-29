@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'namespace' => 'assman',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'd264f1168e4483a8f1f15bc6406d1094',
+  'package' => 'modx',
+  'class' => 'modContentType',
+  'signature' => '573b9ce6cef3c21344848a9a15f370d2',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"BMP Image","description":"Bitmap Image","mime_type":"image\\/bmp","file_extensions":".bmp","headers":null,"binary":1}',
+);

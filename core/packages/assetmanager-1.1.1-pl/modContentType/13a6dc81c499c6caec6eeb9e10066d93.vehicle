@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'namespace' => 'assman',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '0b7d4e725c136006bce1088d5ebffb3b',
+  'package' => 'modx',
+  'class' => 'modContentType',
+  'signature' => '13a6dc81c499c6caec6eeb9e10066d93',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"PNG","description":"PNG Image","mime_type":"image\\/png","file_extensions":".png","headers":null,"binary":1}',
+);

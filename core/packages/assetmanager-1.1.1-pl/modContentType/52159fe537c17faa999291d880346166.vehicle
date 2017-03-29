@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'namespace' => 'assman',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'fdbd3034a8fb139e156e1a2e479a48b7',
+  'package' => 'modx',
+  'class' => 'modContentType',
+  'signature' => '52159fe537c17faa999291d880346166',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"XLSX","description":"Microsoft Excel Workbook","mime_type":"application\\/vnd.openxmlformats-officedocument.spreadsheetml.sheet","file_extensions":".xlsx","headers":null,"binary":1}',
+);

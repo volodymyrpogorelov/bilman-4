@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'namespace' => 'assman',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'fbec9e83c7aebdbf612c75111918c6d2',
+  'package' => 'modx',
+  'class' => 'modContentType',
+  'signature' => 'e752da067fbabf5f8671854484b2399a',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"mp3 Audio","description":"mp3 Audio","mime_type":"audio\\/mpeg3","file_extensions":".mp3","headers":null,"binary":1}',
+);
