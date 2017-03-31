@@ -1,3 +1,5 @@
+html, body, .container {height: 100%;}
+ 
   body{
       background-image: url(/modx/assets/images/ice.jpg);
   }
@@ -7,9 +9,12 @@
   }
   
   #content{
-      background-color: white;
+      background-image: url(/modx/assets/images/text_bckg_seamless.jpg);
       margin-top: 13.8mm;
-      min-height: 30cm;
+      min-height: 100%;
+      border-radius: 5px 5px 20px 20px;
+      border: 2px solid #044f97;
+      
   }
   
   .page-header {
@@ -21,7 +26,7 @@
       background: linear-gradient(#fefbfd, #9e639c); /* Standard syntax */
       
       border-radius: 4px;
-      border: 2px solid #044f97;
+      border: 1px solid #044f97;
       margin: 0;
       height: 46mm;
   }
@@ -64,4 +69,13 @@
       text-shadow: 2px 2px 2px #d60e0e,
         3px 3px 3px blue;
       
+  }
+  
+  #footer{
+      background: brown;
+      margin-top: 2px;
+      margin-bottom: 2px;
+      height: 25mm;
+      border-radius: 10px;
+      border: 1px solid #044f97;
   }

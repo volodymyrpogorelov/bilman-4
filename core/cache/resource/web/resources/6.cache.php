@@ -74,9 +74,13 @@
 				</div>
 
 			</div><!-- /example -->
-
 		</div>
-	</div>',
+	</div>
+	<div id="content-area" class="row container-fluid">
+		</div>
+		<div id="footer-container"class="row">
+		</div>
+</div>',
     'richtext' => 0,
     'template' => 6,
     'menuindex' => 0,
@@ -85,7 +89,7 @@
     'createdby' => 1,
     'createdon' => 1490289410,
     'editedby' => 1,
-    'editedon' => 1490789654,
+    'editedon' => 1490861170,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -215,9 +219,13 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 				</div>
 
 			</div><!-- /example -->
-
 		</div>
 	</div>
+	<div id="content-area" class="row container-fluid">
+		</div>
+		<div id="footer-container"class="row">
+		</div>
+</div>
 
 [[!pdoPage?
 	&element=`pdoResources`
@@ -229,8 +237,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 [[!+page.nav]]
 			</div>
-			<div id="footer">
-	<div class="container">
+			<div id="footer" class="container">
+	<div class="container-fluid">
 		<p class="text-muted">&copy; Бильман 2017
 			<a href="http://modx.com/extras/package/bootstrap" target="_blank" class="pull-right"><small>Bootstrap 1.0.28-pl</small></a>
 		</p>
@@ -385,9 +393,13 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 				</div>
 
 			</div><!-- /example -->
-
 		</div>
 	</div>
+	<div id="content-area" class="row container-fluid">
+		</div>
+		<div id="footer-container"class="row">
+		</div>
+</div>
 
 [[!pdoPage?
 	&element=`pdoResources`
@@ -399,8 +411,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 [[!+page.nav]]',
     '[[Years]]' => '2017',
-    '[[$Footer]]' => '<div id="footer">
-	<div class="container">
+    '[[$Footer]]' => '<div id="footer" class="container">
+	<div class="container-fluid">
 		<p class="text-muted">&copy; Бильман 2017
 			<a href="http://modx.com/extras/package/bootstrap" target="_blank" class="pull-right"><small>Bootstrap 1.0.28-pl</small></a>
 		</p>
@@ -411,7 +423,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 <script src="/modx/assets/components/bootstrap/dist/js/bootstrap.min.js"></script>
 ',
     '[[pdoResources?tpl=`@INLINE <p>[[+idx]]. <a href="[[+link]]">[[+pagetitle]]</a></p>`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`10`&offset=`0`&depth=`10`&outputSeparator=`
-`&toPlaceholder=``&parents=`0`&includeContent=``&includeTVs=``&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=`1`&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`6d40d7f8ce689116dd428434a3ab9dfe`]]' => '',
+`&toPlaceholder=``&parents=`0`&includeContent=``&includeTVs=``&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=`1`&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`d97074ab7ab7102229e9cf234277ee67`]]' => '',
   ),
   'sourceCache' => 
   array (
@@ -649,8 +661,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
           'editor_type' => 0,
           'category' => 7,
           'cache_type' => 0,
-          'snippet' => '<div id="footer">
-	<div class="container">
+          'snippet' => '<div id="footer" class="container">
+	<div class="container-fluid">
 		<p class="text-muted">&copy; [[++site_name]] [[Years]]
 			<a href="http://modx.com/extras/package/bootstrap" target="_blank" class="pull-right"><small>Bootstrap 1.0.28-pl</small></a>
 		</p>
@@ -661,11 +673,13 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 <script src="[[++assets_url]]components/bootstrap/dist/js/bootstrap.min.js"></script>
 ',
           'locked' => false,
-          'properties' => NULL,
+          'properties' => 
+          array (
+          ),
           'static' => false,
           'static_file' => '',
-          'content' => '<div id="footer">
-	<div class="container">
+          'content' => '<div id="footer" class="container">
+	<div class="container-fluid">
 		<p class="text-muted">&copy; [[++site_name]] [[Years]]
 			<a href="http://modx.com/extras/package/bootstrap" target="_blank" class="pull-right"><small>Bootstrap 1.0.28-pl</small></a>
 		</p>
