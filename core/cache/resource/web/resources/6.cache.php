@@ -28,7 +28,7 @@
 				    <h1 class="text-center">
 				        Б И Л Ь М А Н
 				    </h1>
-				    <h2>
+				    <h2 class="text-center">
 				        фигурное катание для взрослых и детей
 				    </h2> 
 				</div>
@@ -77,7 +77,14 @@
 		</div>
 	</div>
 	<div id="content-area" class="row container-fluid">
-		</div>
+	    <div id="slider-row">
+	        <div id="slider-background">
+	         <div id="slider-wrapper">
+             [[!jgSlideShow?&album_id=`2`]]
+             </div>
+             </div>
+         </div>
+	</div>
 		<div id="footer-container"class="row">
 		</div>
 </div>',
@@ -89,7 +96,7 @@
     'createdby' => 1,
     'createdon' => 1490289410,
     'editedby' => 1,
-    'editedon' => 1490861170,
+    'editedon' => 1491320510,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -123,7 +130,6 @@
 <link href="/modx/assets/components/themebootstrap/css/cerulean/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="/modx/assets/components/themebootstrap/css/cerulean/bootstrap.css" rel="stylesheet" media="screen">
 <link href="/modx/assets//css/main.css" rel="stylesheet" media="screen">
-    
 <link href=\'http://fonts.googleapis.com/css?family=Lobster\' rel=\'stylesheet\' type=\'text/css\'>
 
 <style type="text/css">
@@ -173,7 +179,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 				    <h1 class="text-center">
 				        Б И Л Ь М А Н
 				    </h1>
-				    <h2>
+				    <h2 class="text-center">
 				        фигурное катание для взрослых и детей
 				    </h2> 
 				</div>
@@ -222,7 +228,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 		</div>
 	</div>
 	<div id="content-area" class="row container-fluid">
-		</div>
+	    <div id="slider-row">
+	        <div id="slider-background">
+	         <div id="slider-wrapper">
+             [[!jgSlideShow?&album_id=`2`]]
+             </div>
+             </div>
+         </div>
+	</div>
 		<div id="footer-container"class="row">
 		</div>
 </div>
@@ -237,10 +250,9 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 [[!+page.nav]]
 			</div>
-			<div id="footer" class="container">
+			<div id="footer" class="container-fluid">
 	<div class="container-fluid">
 		<p class="text-muted">&copy; Бильман 2017
-			<a href="http://modx.com/extras/package/bootstrap" target="_blank" class="pull-right"><small>Bootstrap 1.0.28-pl</small></a>
 		</p>
 	</div>
 </div>
@@ -292,7 +304,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 <link href="/modx/assets/components/themebootstrap/css/cerulean/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="/modx/assets/components/themebootstrap/css/cerulean/bootstrap.css" rel="stylesheet" media="screen">
 <link href="/modx/assets//css/main.css" rel="stylesheet" media="screen">
-    
 <link href=\'http://fonts.googleapis.com/css?family=Lobster\' rel=\'stylesheet\' type=\'text/css\'>
 
 <style type="text/css">
@@ -347,7 +358,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 				    <h1 class="text-center">
 				        Б И Л Ь М А Н
 				    </h1>
-				    <h2>
+				    <h2 class="text-center">
 				        фигурное катание для взрослых и детей
 				    </h2> 
 				</div>
@@ -396,7 +407,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 		</div>
 	</div>
 	<div id="content-area" class="row container-fluid">
-		</div>
+	    <div id="slider-row">
+	        <div id="slider-background">
+	         <div id="slider-wrapper">
+             [[!jgSlideShow?&album_id=`2`]]
+             </div>
+             </div>
+         </div>
+	</div>
 		<div id="footer-container"class="row">
 		</div>
 </div>
@@ -411,10 +429,9 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 [[!+page.nav]]',
     '[[Years]]' => '2017',
-    '[[$Footer]]' => '<div id="footer" class="container">
+    '[[$Footer]]' => '<div id="footer" class="container-fluid">
 	<div class="container-fluid">
 		<p class="text-muted">&copy; Бильман 2017
-			<a href="http://modx.com/extras/package/bootstrap" target="_blank" class="pull-right"><small>Bootstrap 1.0.28-pl</small></a>
 		</p>
 	</div>
 </div>
@@ -423,7 +440,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 <script src="/modx/assets/components/bootstrap/dist/js/bootstrap.min.js"></script>
 ',
     '[[pdoResources?tpl=`@INLINE <p>[[+idx]]. <a href="[[+link]]">[[+pagetitle]]</a></p>`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`10`&offset=`0`&depth=`10`&outputSeparator=`
-`&toPlaceholder=``&parents=`0`&includeContent=``&includeTVs=``&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=`1`&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`d97074ab7ab7102229e9cf234277ee67`]]' => '',
+`&toPlaceholder=``&parents=`0`&includeContent=``&includeTVs=``&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=`1`&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`ebdf8c041571b11de8db3ac188f64962`]]' => '',
   ),
   'sourceCache' => 
   array (
@@ -452,7 +469,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 <link href="[[++assets_url]]components/themebootstrap/css/cerulean/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="[[++assets_url]]components/themebootstrap/css/cerulean/bootstrap.css" rel="stylesheet" media="screen">
 <link href="[[++assets_url]]/css/main.css" rel="stylesheet" media="screen">
-    
 <link href=\'http://fonts.googleapis.com/css?family=Lobster\' rel=\'stylesheet\' type=\'text/css\'>
 
 [[If? 
@@ -489,7 +505,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 <link href="[[++assets_url]]components/themebootstrap/css/cerulean/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="[[++assets_url]]components/themebootstrap/css/cerulean/bootstrap.css" rel="stylesheet" media="screen">
 <link href="[[++assets_url]]/css/main.css" rel="stylesheet" media="screen">
-    
 <link href=\'http://fonts.googleapis.com/css?family=Lobster\' rel=\'stylesheet\' type=\'text/css\'>
 
 [[If? 
@@ -661,10 +676,9 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
           'editor_type' => 0,
           'category' => 7,
           'cache_type' => 0,
-          'snippet' => '<div id="footer" class="container">
+          'snippet' => '<div id="footer" class="container-fluid">
 	<div class="container-fluid">
 		<p class="text-muted">&copy; [[++site_name]] [[Years]]
-			<a href="http://modx.com/extras/package/bootstrap" target="_blank" class="pull-right"><small>Bootstrap 1.0.28-pl</small></a>
 		</p>
 	</div>
 </div>
@@ -678,16 +692,339 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
           ),
           'static' => false,
           'static_file' => '',
-          'content' => '<div id="footer" class="container">
+          'content' => '<div id="footer" class="container-fluid">
 	<div class="container-fluid">
 		<p class="text-muted">&copy; [[++site_name]] [[Years]]
-			<a href="http://modx.com/extras/package/bootstrap" target="_blank" class="pull-right"><small>Bootstrap 1.0.28-pl</small></a>
 		</p>
 	</div>
 </div>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="[[++assets_url]]components/bootstrap/dist/js/bootstrap.min.js"></script>
+',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+        ),
+      ),
+      'nivo_slidePaneTpl' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 75,
+          'source' => 0,
+          'property_preprocess' => false,
+          'name' => 'nivo_slidePaneTpl',
+          'description' => 'The actual pane or image',
+          'editor_type' => 0,
+          'category' => 25,
+          'cache_type' => 0,
+          'snippet' => '<img src="[[+src]]" alt="[[+title]]" title="[[+html:notequalto=``:then=`#htmlCaption_[[+id]]`:else=`[[+title]] [[+description]]`]]" />',
+          'locked' => false,
+          'properties' => NULL,
+          'static' => false,
+          'static_file' => '',
+          'content' => '<img src="[[+src]]" alt="[[+title]]" title="[[+html:notequalto=``:then=`#htmlCaption_[[+id]]`:else=`[[+title]] [[+description]]`]]" />',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+        ),
+      ),
+      'nivo_htmlCaptionTpl' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 72,
+          'source' => 0,
+          'property_preprocess' => false,
+          'name' => 'nivo_htmlCaptionTpl',
+          'description' => 'HTML Caption Option',
+          'editor_type' => 0,
+          'category' => 25,
+          'cache_type' => 0,
+          'snippet' => '[[+html:notempty=`<div id="htmlCaption_[[+id]]" class="nivo-html-caption">
+  [[+html]]
+</div>`]]',
+          'locked' => false,
+          'properties' => NULL,
+          'static' => false,
+          'static_file' => '',
+          'content' => '[[+html:notempty=`<div id="htmlCaption_[[+id]]" class="nivo-html-caption">
+  [[+html]]
+</div>`]]',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+        ),
+      ),
+      'nivo_headTpl' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 71,
+          'source' => 0,
+          'property_preprocess' => false,
+          'name' => 'nivo_headTpl',
+          'description' => 'Contians JS & CSS for Slideshow',
+          'editor_type' => 0,
+          'category' => 25,
+          'cache_type' => 0,
+          'snippet' => '<link rel="stylesheet" href="[[++assets_url]]/components/slideshowmanager/nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+<style type="text/css">
+#slider-wrapper {
+    width:[[+file_width]]px;
+    height:[[+file_height:add=`60`]]px;
+}
+
+#slider {
+  position:relative;
+    width:[[+file_width]]px;
+    height:[[+file_height]]px;
+  background:url([[++assets_url]]/components/slideshowmanager/nivo-slider/demo/images/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+  position:absolute;
+  top:0px;
+  left:0px;
+ 
+}
+#slider a {
+  border:0;
+  display:block;
+}
+.nivo-controlNav {
+  position:relative;
+  left:20px;
+  bottom:-42px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nivo-controlNav a {
+  display:block;
+  width:22px;
+  height:22px;
+  background:url([[++assets_url]]/components/slideshowmanager/nivo-slider/demo/images/bullets.png) no-repeat;
+  text-indent:-9999px;
+  border:0;
+  margin-right:3px;
+  float:left;
+}
+.nivo-controlNav a.active {
+  background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+  display:block;
+  width:30px;
+  height:30px;
+  background:url([[++assets_url]]/components/slideshowmanager/nivo-slider/demo/images/arrows.png) no-repeat;
+  text-indent:-9999px;
+  border:0;
+}
+a.nivo-nextNav {
+  background-position:-30px 0;
+  right:15px;
+}
+a.nivo-prevNav {
+  left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a {
+    color:#efe9d1;
+    text-decoration:underline;
+}
+</style>
+<!-- jQuery -->
+[[+loadJQuery:equals=`true`:then=`<script type="text/javascript" src="[[++assets_url]]/components/slideshowmanager/nivo-slider/demo/scripts/jquery-1.9.0.min.js"></script>`:else=``]]
+
+<script type="text/javascript" src="[[++assets_url]]/components/slideshowmanager/nivo-slider/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $(\'#[[+slide_div_id]]\').nivoSlider({
+        effect: \'random\', // Specify sets like: \'fold,fade,sliceDown\'
+        slices: 15, // For slice animations
+        boxCols: 8, // For box animations
+        boxRows: 4, // For box animations
+        animSpeed: 500, // Slide transition speed
+        pauseTime: 3000, // How long each slide will show
+        startSlide: 0, // Set starting Slide (0 index)
+        directionNav: true, // Next & Prev navigation
+        directionNavHide: true, // Only show on hover
+        controlNav: true, // 1,2,3... navigation
+        controlNavThumbs: false, // Use thumbnails for Control Nav
+        controlNavThumbsFromRel: false, // Use image rel for thumbs
+        controlNavThumbsSearch: \'.jpg\', // Replace this with...
+        controlNavThumbsReplace: \'_thumb.jpg\', // ...this in thumb Image src
+        keyboardNav: true, // Use left & right arrows
+        pauseOnHover: true, // Stop animation while hovering
+        manualAdvance: false, // Force manual transitions
+        captionOpacity: 0.8, // Universal caption opacity
+        prevText: \'Prev\', // Prev directionNav text
+        nextText: \'Next\', // Next directionNav text
+        beforeChange: function(){}, // Triggers before a slide transition
+        afterChange: function(){}, // Triggers after a slide transition
+        slideshowEnd: function(){}, // Triggers after all slides have been shown
+        lastSlide: function(){}, // Triggers when last slide is shown
+        afterLoad: function(){} // Triggers when slider has loaded
+   });
+});
+</script>',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '<link rel="stylesheet" href="[[++assets_url]]/components/slideshowmanager/nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+<style type="text/css">
+#slider-wrapper {
+    width:[[+file_width]]px;
+    height:[[+file_height:add=`60`]]px;
+}
+
+#slider {
+  position:relative;
+    width:[[+file_width]]px;
+    height:[[+file_height]]px;
+  background:url([[++assets_url]]/components/slideshowmanager/nivo-slider/demo/images/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+  position:absolute;
+  top:0px;
+  left:0px;
+ 
+}
+#slider a {
+  border:0;
+  display:block;
+}
+.nivo-controlNav {
+  position:relative;
+  left:20px;
+  bottom:-42px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nivo-controlNav a {
+  display:block;
+  width:22px;
+  height:22px;
+  background:url([[++assets_url]]/components/slideshowmanager/nivo-slider/demo/images/bullets.png) no-repeat;
+  text-indent:-9999px;
+  border:0;
+  margin-right:3px;
+  float:left;
+}
+.nivo-controlNav a.active {
+  background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+  display:block;
+  width:30px;
+  height:30px;
+  background:url([[++assets_url]]/components/slideshowmanager/nivo-slider/demo/images/arrows.png) no-repeat;
+  text-indent:-9999px;
+  border:0;
+}
+a.nivo-nextNav {
+  background-position:-30px 0;
+  right:15px;
+}
+a.nivo-prevNav {
+  left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a {
+    color:#efe9d1;
+    text-decoration:underline;
+}
+</style>
+<!-- jQuery -->
+[[+loadJQuery:equals=`true`:then=`<script type="text/javascript" src="[[++assets_url]]/components/slideshowmanager/nivo-slider/demo/scripts/jquery-1.9.0.min.js"></script>`:else=``]]
+
+<script type="text/javascript" src="[[++assets_url]]/components/slideshowmanager/nivo-slider/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $(\'#[[+slide_div_id]]\').nivoSlider({
+        effect: \'random\', // Specify sets like: \'fold,fade,sliceDown\'
+        slices: 15, // For slice animations
+        boxCols: 8, // For box animations
+        boxRows: 4, // For box animations
+        animSpeed: 500, // Slide transition speed
+        pauseTime: 3000, // How long each slide will show
+        startSlide: 0, // Set starting Slide (0 index)
+        directionNav: true, // Next & Prev navigation
+        directionNavHide: true, // Only show on hover
+        controlNav: true, // 1,2,3... navigation
+        controlNavThumbs: false, // Use thumbnails for Control Nav
+        controlNavThumbsFromRel: false, // Use image rel for thumbs
+        controlNavThumbsSearch: \'.jpg\', // Replace this with...
+        controlNavThumbsReplace: \'_thumb.jpg\', // ...this in thumb Image src
+        keyboardNav: true, // Use left & right arrows
+        pauseOnHover: true, // Stop animation while hovering
+        manualAdvance: false, // Force manual transitions
+        captionOpacity: 0.8, // Universal caption opacity
+        prevText: \'Prev\', // Prev directionNav text
+        nextText: \'Next\', // Next directionNav text
+        beforeChange: function(){}, // Triggers before a slide transition
+        afterChange: function(){}, // Triggers after a slide transition
+        slideshowEnd: function(){}, // Triggers after all slides have been shown
+        lastSlide: function(){}, // Triggers when last slide is shown
+        afterLoad: function(){} // Triggers when slider has loaded
+   });
+});
+</script>',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+        ),
+      ),
+      'nivo_slideHolderTpl' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 73,
+          'source' => 0,
+          'property_preprocess' => false,
+          'name' => 'nivo_slideHolderTpl',
+          'description' => 'The holder for the slide panes',
+          'editor_type' => 0,
+          'category' => 25,
+          'cache_type' => 0,
+          'snippet' => '<div id="[[+slide_div_id]]" class="nivoSlider">
+  [[+slide_panes]]
+</div>
+',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '<div id="[[+slide_div_id]]" class="nivoSlider">
+  [[+slide_panes]]
+</div>
 ',
         ),
         'policies' => 
@@ -1913,6 +2250,283 @@ return date(\'Y\');',
  * @package Bootstrap
  */
 return date(\'Y\');',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+        ),
+      ),
+      'jgSlideShow' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 52,
+          'source' => 0,
+          'property_preprocess' => false,
+          'name' => 'jgSlideShow',
+          'description' => 'Display a slide show from Slideshow Manager',
+          'editor_type' => 0,
+          'category' => 25,
+          'cache_type' => 0,
+          'snippet' => '/**
+ * Slideshow
+ * 
+ * A slideshow snippet for MODX Revolution
+ * 
+ * @package slideshowmanager
+ */
+// require_once $modx->getOption(\'formit.core_path\',null,$modx->getOption(\'core_path\').\'components/formit/\').\'model/formit/formit.class.php\';
+// get the user input (inputName, the input array, default value)
+$album_id = $modx->getOption(\'album_id\', $scriptProperties, 1);
+$slide_div_id = $modx->getOption(\'slide_div_id\', $scriptProperties, \'slider\');
+
+$skin = $modx->getOption(\'skin\', $scriptProperties, \'nivo\');
+$head = $modx->getOption(\'headTpl\', $scriptProperties, $skin.\'_headTpl\' );
+$slide_holder = $modx->getOption(\'slideHolderTpl\', $scriptProperties, $skin.\'_slideHolderTpl\' );
+$slide_pane = $modx->getOption(\'slidePaneTpl\', $scriptProperties, $skin.\'_slidePaneTpl\' );
+$slide_pane_link = $modx->getOption(\'slideLinkTpl\', $scriptProperties, $skin.\'_slideLinkTpl\' );
+$slide_pane_link = $modx->getOption(\'slidePaneLinkTpl\', $scriptProperties, $slide_pane_link );
+
+$html_caption = $modx->getOption(\'htmlCaptionTpl\', $scriptProperties, $skin.\'_htmlCaptionTpl\' );
+
+$use_head = $modx->getOption(\'use_headTpl\', $scriptProperties, true );
+$use_slide_holder = $modx->getOption(\'use_slideHolderTpl\', $scriptProperties, true );
+//$use_slide_pane = $modx->getOption(\'use_slidePaneTpl\', $scriptProperties, true );
+//$use_slide_pane_link = $modx->getOption(\'use_slideLinkTpl\', $scriptProperties, true );
+$use_html_caption = $modx->getOption(\'use_htmlCaptionTpl\', $scriptProperties, true );
+
+
+$ignore_time = (boolean) $modx->getOption(\'ignoreTime\', $scriptProperties, false );
+$ignore_endtime = (boolean) $modx->getOption(\'ignoreEndTime\', $scriptProperties, false );
+//$head = $modx->getOption(\'headTpl\', $scriptProperties, $skin.\'\' );
+
+$loadJQuery = $modx->getOption(\'loadJQuery\', $scriptProperties, \'true\');
+
+// add package
+$s_path = $modx->getOption(\'core_path\').\'components/slideshowmanager/model/\';
+$modx->addPackage(\'slideshowmanager\', $s_path);
+$slide_dir = MODX_ASSETS_URL.\'components/slideshowmanager/uploads/\';
+
+$output = \'\';
+
+// get the slides for the album
+$query = $modx->newQuery(\'jgSlideshowSlide\');
+$today = date("Y-m-d");
+$c = array(
+    \'slideshow_album_id\' => $album_id, 
+    \'slide_status\' => \'live\'
+    );
+if ( !$ignore_time ) {
+    $c[\'start_date:<=\'] = $today;
+    if ( !$ignore_endtime ) {
+        $c[\'end_date:>=\'] = $today;
+    }
+}
+
+$query->where($c);
+$query->sortby(\'sequence\',\'ASC\');
+
+//$oldTarget = $modx->setLogTarget(\'HTML\');
+// your code here
+//$c->limit(5);
+//$slides = $modx->getCollection(\'jgSlideshowSlide\',$query);
+//$output .= $query->toSQL();
+
+// restore the default logging (to file)
+//$modx->setLogTarget($oldTarget);
+
+$slide_output = \'\';
+$html_cap_output = \'\';
+$count = 0;
+//foreach( $slides as $slide ){
+
+$query->prepare();
+$sql = $query->toSQL();
+$sql = str_replace(\'`jgSlideshowSlide_\', \'`\', $sql);// not sure why the prefix gets there: `jgSlideshowSlide_
+//error_log($sql);
+$stmt = $modx->query($sql);
+while ( $slide_data = $stmt->fetch(PDO::FETCH_ASSOC) ) {
+    ++$count;
+    //$output .= \'<br>Slide: \'.$count;
+    // go thourgh each image
+    //$slide_data = $slide->toArray();
+    $url = $slide_data[\'url\'];//->get(\'url\');
+    $slide_data[\'src\'] = $slide_dir.$slide_data[\'file_path\']; 
+    if ( empty($url) ) {
+        $slide_output .= \'
+            \'.$modx->getChunk($slide_pane, $slide_data);
+    } else {
+        $slide_output .= \'
+            \'.$modx->getChunk($slide_pane_link, $slide_data);
+    }
+    // create html caption
+    //if ( !empty($slide_data[\'html\']) || !empty($slide_data[\'description\']) ){
+    if ( $use_html_caption ) {
+        $html_cap_output .= $modx->getChunk($html_caption, $slide_data);
+    }
+    //}
+    
+}
+// get the Album data and merge with slides and caption
+$slideAlbum = $modx->getObject(\'jgSlideshowAlbum\', array(\'id\' => $album_id));
+$album_data = array();
+if ( is_object($slideAlbum) ) {
+    $album_data = $slideAlbum->toArray();
+    // load the CSS file
+    $album_data[\'slide_div_id\'] = $slide_div_id;
+    $album_data[\'slide_count\'] = $count;
+    $album_data[\'loadJQuery\'] = $loadJQuery;
+    if ( $use_head ) {
+        $modx->regClientStartupHTMLBlock($modx->getChunk($head, $album_data));
+    }
+    
+    $album_data[\'slide_panes\'] = $slide_output;
+    $album_data[\'html_caption\'] = $html_cap_output;
+}
+if ( $use_slide_holder ){
+    $output .= $modx->getChunk($slide_holder, $album_data);
+} else {
+    $output = $slide_output;
+}
+$toPlaceholder = $modx->getOption(\'toPlaceholder\', $scriptProperties, \'\' );
+if ( !empty($toPlaceholder) ) {
+    $modx->setPlaceholder($toPlaceholder, $output);
+    return \'\';
+}
+return $output;',
+          'locked' => false,
+          'properties' => NULL,
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => '',
+          'content' => '/**
+ * Slideshow
+ * 
+ * A slideshow snippet for MODX Revolution
+ * 
+ * @package slideshowmanager
+ */
+// require_once $modx->getOption(\'formit.core_path\',null,$modx->getOption(\'core_path\').\'components/formit/\').\'model/formit/formit.class.php\';
+// get the user input (inputName, the input array, default value)
+$album_id = $modx->getOption(\'album_id\', $scriptProperties, 1);
+$slide_div_id = $modx->getOption(\'slide_div_id\', $scriptProperties, \'slider\');
+
+$skin = $modx->getOption(\'skin\', $scriptProperties, \'nivo\');
+$head = $modx->getOption(\'headTpl\', $scriptProperties, $skin.\'_headTpl\' );
+$slide_holder = $modx->getOption(\'slideHolderTpl\', $scriptProperties, $skin.\'_slideHolderTpl\' );
+$slide_pane = $modx->getOption(\'slidePaneTpl\', $scriptProperties, $skin.\'_slidePaneTpl\' );
+$slide_pane_link = $modx->getOption(\'slideLinkTpl\', $scriptProperties, $skin.\'_slideLinkTpl\' );
+$slide_pane_link = $modx->getOption(\'slidePaneLinkTpl\', $scriptProperties, $slide_pane_link );
+
+$html_caption = $modx->getOption(\'htmlCaptionTpl\', $scriptProperties, $skin.\'_htmlCaptionTpl\' );
+
+$use_head = $modx->getOption(\'use_headTpl\', $scriptProperties, true );
+$use_slide_holder = $modx->getOption(\'use_slideHolderTpl\', $scriptProperties, true );
+//$use_slide_pane = $modx->getOption(\'use_slidePaneTpl\', $scriptProperties, true );
+//$use_slide_pane_link = $modx->getOption(\'use_slideLinkTpl\', $scriptProperties, true );
+$use_html_caption = $modx->getOption(\'use_htmlCaptionTpl\', $scriptProperties, true );
+
+
+$ignore_time = (boolean) $modx->getOption(\'ignoreTime\', $scriptProperties, false );
+$ignore_endtime = (boolean) $modx->getOption(\'ignoreEndTime\', $scriptProperties, false );
+//$head = $modx->getOption(\'headTpl\', $scriptProperties, $skin.\'\' );
+
+$loadJQuery = $modx->getOption(\'loadJQuery\', $scriptProperties, \'true\');
+
+// add package
+$s_path = $modx->getOption(\'core_path\').\'components/slideshowmanager/model/\';
+$modx->addPackage(\'slideshowmanager\', $s_path);
+$slide_dir = MODX_ASSETS_URL.\'components/slideshowmanager/uploads/\';
+
+$output = \'\';
+
+// get the slides for the album
+$query = $modx->newQuery(\'jgSlideshowSlide\');
+$today = date("Y-m-d");
+$c = array(
+    \'slideshow_album_id\' => $album_id, 
+    \'slide_status\' => \'live\'
+    );
+if ( !$ignore_time ) {
+    $c[\'start_date:<=\'] = $today;
+    if ( !$ignore_endtime ) {
+        $c[\'end_date:>=\'] = $today;
+    }
+}
+
+$query->where($c);
+$query->sortby(\'sequence\',\'ASC\');
+
+//$oldTarget = $modx->setLogTarget(\'HTML\');
+// your code here
+//$c->limit(5);
+//$slides = $modx->getCollection(\'jgSlideshowSlide\',$query);
+//$output .= $query->toSQL();
+
+// restore the default logging (to file)
+//$modx->setLogTarget($oldTarget);
+
+$slide_output = \'\';
+$html_cap_output = \'\';
+$count = 0;
+//foreach( $slides as $slide ){
+
+$query->prepare();
+$sql = $query->toSQL();
+$sql = str_replace(\'`jgSlideshowSlide_\', \'`\', $sql);// not sure why the prefix gets there: `jgSlideshowSlide_
+//error_log($sql);
+$stmt = $modx->query($sql);
+while ( $slide_data = $stmt->fetch(PDO::FETCH_ASSOC) ) {
+    ++$count;
+    //$output .= \'<br>Slide: \'.$count;
+    // go thourgh each image
+    //$slide_data = $slide->toArray();
+    $url = $slide_data[\'url\'];//->get(\'url\');
+    $slide_data[\'src\'] = $slide_dir.$slide_data[\'file_path\']; 
+    if ( empty($url) ) {
+        $slide_output .= \'
+            \'.$modx->getChunk($slide_pane, $slide_data);
+    } else {
+        $slide_output .= \'
+            \'.$modx->getChunk($slide_pane_link, $slide_data);
+    }
+    // create html caption
+    //if ( !empty($slide_data[\'html\']) || !empty($slide_data[\'description\']) ){
+    if ( $use_html_caption ) {
+        $html_cap_output .= $modx->getChunk($html_caption, $slide_data);
+    }
+    //}
+    
+}
+// get the Album data and merge with slides and caption
+$slideAlbum = $modx->getObject(\'jgSlideshowAlbum\', array(\'id\' => $album_id));
+$album_data = array();
+if ( is_object($slideAlbum) ) {
+    $album_data = $slideAlbum->toArray();
+    // load the CSS file
+    $album_data[\'slide_div_id\'] = $slide_div_id;
+    $album_data[\'slide_count\'] = $count;
+    $album_data[\'loadJQuery\'] = $loadJQuery;
+    if ( $use_head ) {
+        $modx->regClientStartupHTMLBlock($modx->getChunk($head, $album_data));
+    }
+    
+    $album_data[\'slide_panes\'] = $slide_output;
+    $album_data[\'html_caption\'] = $html_cap_output;
+}
+if ( $use_slide_holder ){
+    $output .= $modx->getChunk($slide_holder, $album_data);
+} else {
+    $output = $slide_output;
+}
+$toPlaceholder = $modx->getOption(\'toPlaceholder\', $scriptProperties, \'\' );
+if ( !empty($toPlaceholder) ) {
+    $modx->setPlaceholder($toPlaceholder, $output);
+    return \'\';
+}
+return $output;',
         ),
         'policies' => 
         array (

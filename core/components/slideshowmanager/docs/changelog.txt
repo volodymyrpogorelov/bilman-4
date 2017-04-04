@@ -1,0 +1,91 @@
+Changelog for slideshowmanager.
+
+
+SlideshowManager 1.1.4 pl  5/04/2015
+===========================
+ - Public update to MODX 2.3pl, CSS Changes for Manager, #23
+ - Added #24 Allow no Chunks to be sent to <head>
+ - Fix install/build error message
+ 
+SlideshowManager 1.1.3 pl  9/13/2013
+===========================
+ - Added #15 ignoreEndTime and ignoreTime
+ - Fixed #13 end date must be greater or equal to start date
+ - Fix sorting in manager for Future and Archive
+
+SlideshowManager 1.1.2 pl 4/12/2013
+===========================
+ - Fixed #9
+ - updated Nivo Slider to 3.2
+ - Fixed install issue
+ - Added #10 now used MODX Manager Date format: http://rtfm.modx.com/display/revolution20/manager_date_format, works best for php 5.3+
+ - Fix #11
+
+SlideshowManager 1.1.1 pl 11/7/2012
+===========================
+ - Fixed default album install issue #1
+ - updated Nivo Slider to 3.1
+
+SlideshowManager 1.1 pl 7/11/2012
+===========================
+ - Added updateSlideshow snippet, only needed if you have issues after updating
+ - Fixed file upload field storing issue
+ - Changed the base snippet slightly and updated nivo_htmlCaptionTpl Chunk accordingly
+
+
+SlideshowManager 1.1 rc2 7/11/2012
+===========================
+ - Added optional load jQuery #2 if you aready are loading jquery set this to false
+ - toPlaceholder
+ - Can chose to force a certian size (height and width) and will now auto resize images or allow any height and width  
+
+SlideshowManager 1.1 rc 07/10/2012
+===========================
+ - Update UI to be completly native MODX
+ - Set default dates for the create form
+ - Update to latest Nivo player
+ - Add new options:
+    set custom Description, Image Instructions and Advanced instructions for each Album
+ - Fixed #5 with new GUI
+
+SlideshowManager 1.0.4 pl 04/17/2012
+===========================
+ - Fix assets path for JS helper file, affected sites where MODX is in a folder
+ 
+SlideshowManager 1.0.3 pl 04/17/2012
+===========================
+ - Another PHP Notice Warning Fix
+ 
+SlideshowManager 1.0.2 pl 04/16/2012
+===========================
+ - Fix PHP Notice Warning
+ 
+SlideshowManager 1.0.1 pl 03/13/2012
+===========================
+ - Set end_date to be a required field
+ 
+SlideshowManager 1.0.0 pl
+===========================
+ - made the auto installer to actually work!
+ - updated Nivo jQuery slideshow
+ - created an optional demo slideshow for first time installs 
+
+SlideshowManager 1.0.0 rc
+===========================
+ - added auto installer
+
+SlideshowManager 1.0.0 beta2
+============================
+ - IE upload fix for mime type
+
+SlideshowManager 1.0.0 beta
+============================
+- Changed file paths from 'slideshow-manager' to 'slideshowmanager' 
+    if you are upgrading you will need to copy /assets/components/slideshow-manager/uploads/ to 
+    /assets/components/slideshowmanager/uploads/ for your current slideshows to work
+- Now uses ExtJS Grid
+- Lots of fixes
+
+SlideshowManager 1.0.0 alpha
+============================
+- Initial commit

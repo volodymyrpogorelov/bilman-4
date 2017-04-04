@@ -12,7 +12,7 @@ html, body, .container {height: 100%;}
       background-image: url(/modx/assets/images/text_bckg_seamless.jpg);
       margin-top: 13.8mm;
       min-height: 100%;
-      border-radius: 5px 5px 20px 20px;
+      border-radius: 5px 5px 10px 10px;
       border: 2px solid #044f97;
       
   }
@@ -43,7 +43,7 @@ html, body, .container {height: 100%;}
   
   #page-header-right-img{
       position: absolute;
-      right: 32mm;
+      right: 27mm;
       top: 0mm;
       z-index: 1;
       width: 32.5mm;
@@ -59,10 +59,10 @@ html, body, .container {height: 100%;}
       font-family: 'Lobster', helvetica, arial;
       margin-top: 0;
       text-decoration: underline;
-      margin-left: 56mm;
+      margin-left: 25mm;
   }
   .page-header h1 {
-      margin-left: 30mm;
+      margin-left: 25mm;
       color: blue;
       font-size: 72px;
       font-family: 'Lobster', helvetica, arial;
@@ -70,12 +70,24 @@ html, body, .container {height: 100%;}
         3px 3px 3px blue;
       
   }
+#slider-background {
+    background-image: url(/modx/assets/images/old-photos-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 750px;
+    height: 524px;
+    padding-top:2%;
+}
+  #slider-wrapper{
+      background-color: #fffbf3;
+      margin-left: auto;
+      margin-right: auto;
+  }
   
   #footer{
       background: brown;
-      margin-top: 2px;
-      margin-bottom: 2px;
-      height: 25mm;
-      border-radius: 10px;
+      margin-top: 1px;
+      min-height: 6%;
+      border-radius: 7px;
       border: 1px solid #044f97;
   }

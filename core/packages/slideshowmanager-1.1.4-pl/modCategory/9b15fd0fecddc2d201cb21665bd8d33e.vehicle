@@ -1,0 +1,144 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      '357d03e6200d7c7b3e2fc8f3fb684a00' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":1,"source":0,"property_preprocess":0,"name":"nivo_headTpl","description":"Contians JS & CSS for Slideshow","editor_type":0,"category":0,"cache_type":0,"snippet":"<link rel=\\"stylesheet\\" href=\\"[[++assets_url]]\\/components\\/slideshowmanager\\/nivo-slider\\/nivo-slider.css\\" type=\\"text\\/css\\" media=\\"screen\\" \\/>\\r\\n<style type=\\"text\\/css\\">\\r\\n#slider-wrapper {\\r\\n    width:[[+file_width]]px;\\r\\n    height:[[+file_height:add=`60`]]px;\\r\\n}\\r\\n\\r\\n#slider {\\r\\n  position:relative;\\r\\n    width:[[+file_width]]px;\\r\\n    height:[[+file_height]]px;\\r\\n  background:url([[++assets_url]]\\/components\\/slideshowmanager\\/nivo-slider\\/demo\\/images\\/loading.gif) no-repeat 50% 50%;\\r\\n}\\r\\n#slider img {\\r\\n  position:absolute;\\r\\n  top:0px;\\r\\n  left:0px;\\r\\n  display:none;\\r\\n}\\r\\n#slider a {\\r\\n  border:0;\\r\\n  display:block;\\r\\n}\\r\\n.nivo-controlNav {\\r\\n  position:absolute;\\r\\n  left:20px;\\r\\n  bottom:-42px;\\r\\n}\\r\\n.nivo-controlNav a {\\r\\n  display:block;\\r\\n  width:22px;\\r\\n  height:22px;\\r\\n  background:url([[++assets_url]]\\/components\\/slideshowmanager\\/nivo-slider\\/demo\\/images\\/bullets.png) no-repeat;\\r\\n  text-indent:-9999px;\\r\\n  border:0;\\r\\n  margin-right:3px;\\r\\n  float:left;\\r\\n}\\r\\n.nivo-controlNav a.active {\\r\\n  background-position:0 -22px;\\r\\n}\\r\\n\\r\\n.nivo-directionNav a {\\r\\n  display:block;\\r\\n  width:30px;\\r\\n  height:30px;\\r\\n  background:url([[++assets_url]]\\/components\\/slideshowmanager\\/nivo-slider\\/demo\\/images\\/arrows.png) no-repeat;\\r\\n  text-indent:-9999px;\\r\\n  border:0;\\r\\n}\\r\\na.nivo-nextNav {\\r\\n  background-position:-30px 0;\\r\\n  right:15px;\\r\\n}\\r\\na.nivo-prevNav {\\r\\n  left:15px;\\r\\n}\\r\\n\\r\\n.nivo-caption {\\r\\n    text-shadow:none;\\r\\n    font-family: Helvetica, Arial, sans-serif;\\r\\n}\\r\\n.nivo-caption a {\\r\\n    color:#efe9d1;\\r\\n    text-decoration:underline;\\r\\n}\\r\\n<\\/style>\\r\\n<!-- jQuery -->\\r\\n[[+loadJQuery:equals=`true`:then=`<script type=\\"text\\/javascript\\" src=\\"[[++assets_url]]\\/components\\/slideshowmanager\\/nivo-slider\\/demo\\/scripts\\/jquery-1.9.0.min.js\\"><\\/script>`:else=``]]\\r\\n\\r\\n<script type=\\"text\\/javascript\\" src=\\"[[++assets_url]]\\/components\\/slideshowmanager\\/nivo-slider\\/jquery.nivo.slider.pack.js\\"><\\/script>\\r\\n<script type=\\"text\\/javascript\\">\\r\\n$(window).load(function() {\\r\\n    $(\'#[[+slide_div_id]]\').nivoSlider({\\r\\n        effect: \'random\', \\/\\/ Specify sets like: \'fold,fade,sliceDown\'\\r\\n        slices: 15, \\/\\/ For slice animations\\r\\n        boxCols: 8, \\/\\/ For box animations\\r\\n        boxRows: 4, \\/\\/ For box animations\\r\\n        animSpeed: 500, \\/\\/ Slide transition speed\\r\\n        pauseTime: 3000, \\/\\/ How long each slide will show\\r\\n        startSlide: 0, \\/\\/ Set starting Slide (0 index)\\r\\n        directionNav: true, \\/\\/ Next & Prev navigation\\r\\n        directionNavHide: true, \\/\\/ Only show on hover\\r\\n        controlNav: true, \\/\\/ 1,2,3... navigation\\r\\n        controlNavThumbs: false, \\/\\/ Use thumbnails for Control Nav\\r\\n        controlNavThumbsFromRel: false, \\/\\/ Use image rel for thumbs\\r\\n        controlNavThumbsSearch: \'.jpg\', \\/\\/ Replace this with...\\r\\n        controlNavThumbsReplace: \'_thumb.jpg\', \\/\\/ ...this in thumb Image src\\r\\n        keyboardNav: true, \\/\\/ Use left & right arrows\\r\\n        pauseOnHover: true, \\/\\/ Stop animation while hovering\\r\\n        manualAdvance: false, \\/\\/ Force manual transitions\\r\\n        captionOpacity: 0.8, \\/\\/ Universal caption opacity\\r\\n        prevText: \'Prev\', \\/\\/ Prev directionNav text\\r\\n        nextText: \'Next\', \\/\\/ Next directionNav text\\r\\n        beforeChange: function(){}, \\/\\/ Triggers before a slide transition\\r\\n        afterChange: function(){}, \\/\\/ Triggers after a slide transition\\r\\n        slideshowEnd: function(){}, \\/\\/ Triggers after all slides have been shown\\r\\n        lastSlide: function(){}, \\/\\/ Triggers when last slide is shown\\r\\n        afterLoad: function(){} \\/\\/ Triggers when slider has loaded\\r\\n   });\\r\\n});\\r\\n<\\/script>","locked":0,"properties":"","static":0,"static_file":"","content":"<link rel=\\"stylesheet\\" href=\\"[[++assets_url]]\\/components\\/slideshowmanager\\/nivo-slider\\/nivo-slider.css\\" type=\\"text\\/css\\" media=\\"screen\\" \\/>\\r\\n<style type=\\"text\\/css\\">\\r\\n#slider-wrapper {\\r\\n    width:[[+file_width]]px;\\r\\n    height:[[+file_height:add=`60`]]px;\\r\\n}\\r\\n\\r\\n#slider {\\r\\n  position:relative;\\r\\n    width:[[+file_width]]px;\\r\\n    height:[[+file_height]]px;\\r\\n  background:url([[++assets_url]]\\/components\\/slideshowmanager\\/nivo-slider\\/demo\\/images\\/loading.gif) no-repeat 50% 50%;\\r\\n}\\r\\n#slider img {\\r\\n  position:absolute;\\r\\n  top:0px;\\r\\n  left:0px;\\r\\n  display:none;\\r\\n}\\r\\n#slider a {\\r\\n  border:0;\\r\\n  display:block;\\r\\n}\\r\\n.nivo-controlNav {\\r\\n  position:absolute;\\r\\n  left:20px;\\r\\n  bottom:-42px;\\r\\n}\\r\\n.nivo-controlNav a {\\r\\n  display:block;\\r\\n  width:22px;\\r\\n  height:22px;\\r\\n  background:url([[++assets_url]]\\/components\\/slideshowmanager\\/nivo-slider\\/demo\\/images\\/bullets.png) no-repeat;\\r\\n  text-indent:-9999px;\\r\\n  border:0;\\r\\n  margin-right:3px;\\r\\n  float:left;\\r\\n}\\r\\n.nivo-controlNav a.active {\\r\\n  background-position:0 -22px;\\r\\n}\\r\\n\\r\\n.nivo-directionNav a {\\r\\n  display:block;\\r\\n  width:30px;\\r\\n  height:30px;\\r\\n  background:url([[++assets_url]]\\/components\\/slideshowmanager\\/nivo-slider\\/demo\\/images\\/arrows.png) no-repeat;\\r\\n  text-indent:-9999px;\\r\\n  border:0;\\r\\n}\\r\\na.nivo-nextNav {\\r\\n  background-position:-30px 0;\\r\\n  right:15px;\\r\\n}\\r\\na.nivo-prevNav {\\r\\n  left:15px;\\r\\n}\\r\\n\\r\\n.nivo-caption {\\r\\n    text-shadow:none;\\r\\n    font-family: Helvetica, Arial, sans-serif;\\r\\n}\\r\\n.nivo-caption a {\\r\\n    color:#efe9d1;\\r\\n    text-decoration:underline;\\r\\n}\\r\\n<\\/style>\\r\\n<!-- jQuery -->\\r\\n[[+loadJQuery:equals=`true`:then=`<script type=\\"text\\/javascript\\" src=\\"[[++assets_url]]\\/components\\/slideshowmanager\\/nivo-slider\\/demo\\/scripts\\/jquery-1.9.0.min.js\\"><\\/script>`:else=``]]\\r\\n\\r\\n<script type=\\"text\\/javascript\\" src=\\"[[++assets_url]]\\/components\\/slideshowmanager\\/nivo-slider\\/jquery.nivo.slider.pack.js\\"><\\/script>\\r\\n<script type=\\"text\\/javascript\\">\\r\\n$(window).load(function() {\\r\\n    $(\'#[[+slide_div_id]]\').nivoSlider({\\r\\n        effect: \'random\', \\/\\/ Specify sets like: \'fold,fade,sliceDown\'\\r\\n        slices: 15, \\/\\/ For slice animations\\r\\n        boxCols: 8, \\/\\/ For box animations\\r\\n        boxRows: 4, \\/\\/ For box animations\\r\\n        animSpeed: 500, \\/\\/ Slide transition speed\\r\\n        pauseTime: 3000, \\/\\/ How long each slide will show\\r\\n        startSlide: 0, \\/\\/ Set starting Slide (0 index)\\r\\n        directionNav: true, \\/\\/ Next & Prev navigation\\r\\n        directionNavHide: true, \\/\\/ Only show on hover\\r\\n        controlNav: true, \\/\\/ 1,2,3... navigation\\r\\n        controlNavThumbs: false, \\/\\/ Use thumbnails for Control Nav\\r\\n        controlNavThumbsFromRel: false, \\/\\/ Use image rel for thumbs\\r\\n        controlNavThumbsSearch: \'.jpg\', \\/\\/ Replace this with...\\r\\n        controlNavThumbsReplace: \'_thumb.jpg\', \\/\\/ ...this in thumb Image src\\r\\n        keyboardNav: true, \\/\\/ Use left & right arrows\\r\\n        pauseOnHover: true, \\/\\/ Stop animation while hovering\\r\\n        manualAdvance: false, \\/\\/ Force manual transitions\\r\\n        captionOpacity: 0.8, \\/\\/ Universal caption opacity\\r\\n        prevText: \'Prev\', \\/\\/ Prev directionNav text\\r\\n        nextText: \'Next\', \\/\\/ Next directionNav text\\r\\n        beforeChange: function(){}, \\/\\/ Triggers before a slide transition\\r\\n        afterChange: function(){}, \\/\\/ Triggers after a slide transition\\r\\n        slideshowEnd: function(){}, \\/\\/ Triggers after all slides have been shown\\r\\n        lastSlide: function(){}, \\/\\/ Triggers when last slide is shown\\r\\n        afterLoad: function(){} \\/\\/ Triggers when slider has loaded\\r\\n   });\\r\\n});\\r\\n<\\/script>"}',
+        'guid' => '60480fa696a9ef43d77b35760ded37f1',
+        'native_key' => 1,
+        'signature' => '836434141524afdf3af621ba6ccdefba',
+      ),
+      'daee46397bca2af2e1fe94e6a2728678' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":2,"source":0,"property_preprocess":0,"name":"nivo_htmlCaptionTpl","description":"HTML Caption Option","editor_type":0,"category":0,"cache_type":0,"snippet":"[[+html:notempty=`<div id=\\"htmlCaption_[[+id]]\\" class=\\"nivo-html-caption\\">\\r\\n  [[+html]]\\r\\n<\\/div>`]]","locked":0,"properties":"","static":0,"static_file":"","content":"[[+html:notempty=`<div id=\\"htmlCaption_[[+id]]\\" class=\\"nivo-html-caption\\">\\r\\n  [[+html]]\\r\\n<\\/div>`]]"}',
+        'guid' => '50b94e7718376306af7faba3d9bd52c5',
+        'native_key' => 2,
+        'signature' => '9389b2910a02c9dc77936018fc6f7cce',
+      ),
+      '85d1c38d6d214eeccd4af8fd4cc868a6' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":3,"source":0,"property_preprocess":0,"name":"nivo_slideHolderTpl","description":"The holder for the slide panes","editor_type":0,"category":0,"cache_type":0,"snippet":"<div id=\\"[[+slide_div_id]]\\" class=\\"nivoSlider\\">\\r\\n  [[+slide_panes]]\\r\\n<\\/div>\\r\\n  [[+html_caption]]","locked":0,"properties":"","static":0,"static_file":"","content":"<div id=\\"[[+slide_div_id]]\\" class=\\"nivoSlider\\">\\r\\n  [[+slide_panes]]\\r\\n<\\/div>\\r\\n  [[+html_caption]]"}',
+        'guid' => 'e9f07d9aa533ad835569bc1979ec30d7',
+        'native_key' => 3,
+        'signature' => 'a2c2e968aa1672710fd4e57f53def8f8',
+      ),
+      'c2b67fe8250f8ed24167e9ab57bb9642' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":4,"source":0,"property_preprocess":0,"name":"nivo_slideLinkTpl","description":"A slide pane wrapped in an anchor","editor_type":0,"category":0,"cache_type":0,"snippet":"<a href=\\"[[+url]]\\"><img src=\\"[[+src]]\\" alt=\\"[[+title]]\\" title=\\"[[+html:notequalto=``:then=`#htmlCaption_[[+id]]`:else=`[[+title]] [[+description]]`]]\\" \\/><\\/a>","locked":0,"properties":"","static":0,"static_file":"","content":"<a href=\\"[[+url]]\\"><img src=\\"[[+src]]\\" alt=\\"[[+title]]\\" title=\\"[[+html:notequalto=``:then=`#htmlCaption_[[+id]]`:else=`[[+title]] [[+description]]`]]\\" \\/><\\/a>"}',
+        'guid' => 'e283462bdec67771e828056a89f553b5',
+        'native_key' => 4,
+        'signature' => 'bf244af415fdc9c51d3e76d758a5a9f0',
+      ),
+      'd932af995c86746bc3020647005cd2cf' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":5,"source":0,"property_preprocess":0,"name":"nivo_slidePaneTpl","description":"The actual pane or image","editor_type":0,"category":0,"cache_type":0,"snippet":"<img src=\\"[[+src]]\\" alt=\\"[[+title]]\\" title=\\"[[+html:notequalto=``:then=`#htmlCaption_[[+id]]`:else=`[[+title]] [[+description]]`]]\\" \\/>","locked":0,"properties":"","static":0,"static_file":"","content":"<img src=\\"[[+src]]\\" alt=\\"[[+title]]\\" title=\\"[[+html:notequalto=``:then=`#htmlCaption_[[+id]]`:else=`[[+title]] [[+description]]`]]\\" \\/>"}',
+        'guid' => 'f7f4f1730fc91808e15ad41e459ba150',
+        'native_key' => 5,
+        'signature' => 'f1eedee67cd5d7bccf017001df888d9b',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      'e4601e8c012ae595f939c276c54956ce' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":1,"source":0,"property_preprocess":0,"name":"jgSlideShow","description":"Display a slide show from Slideshow Manager","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/**\\r\\n * Slideshow\\r\\n * \\r\\n * A slideshow snippet for MODX Revolution\\r\\n * \\r\\n * @package slideshowmanager\\r\\n *\\/\\r\\n\\/\\/ require_once $modx->getOption(\'formit.core_path\',null,$modx->getOption(\'core_path\').\'components\\/formit\\/\').\'model\\/formit\\/formit.class.php\';\\r\\n\\/\\/ get the user input (inputName, the input array, default value)\\r\\n$album_id = $modx->getOption(\'album_id\', $scriptProperties, 1);\\r\\n$slide_div_id = $modx->getOption(\'slide_div_id\', $scriptProperties, \'slider\');\\r\\n\\r\\n$skin = $modx->getOption(\'skin\', $scriptProperties, \'nivo\');\\r\\n$head = $modx->getOption(\'headTpl\', $scriptProperties, $skin.\'_headTpl\' );\\r\\n$slide_holder = $modx->getOption(\'slideHolderTpl\', $scriptProperties, $skin.\'_slideHolderTpl\' );\\r\\n$slide_pane = $modx->getOption(\'slidePaneTpl\', $scriptProperties, $skin.\'_slidePaneTpl\' );\\r\\n$slide_pane_link = $modx->getOption(\'slideLinkTpl\', $scriptProperties, $skin.\'_slideLinkTpl\' );\\r\\n$slide_pane_link = $modx->getOption(\'slidePaneLinkTpl\', $scriptProperties, $slide_pane_link );\\r\\n\\r\\n$html_caption = $modx->getOption(\'htmlCaptionTpl\', $scriptProperties, $skin.\'_htmlCaptionTpl\' );\\r\\n\\r\\n$use_head = $modx->getOption(\'use_headTpl\', $scriptProperties, true );\\r\\n$use_slide_holder = $modx->getOption(\'use_slideHolderTpl\', $scriptProperties, true );\\r\\n\\/\\/$use_slide_pane = $modx->getOption(\'use_slidePaneTpl\', $scriptProperties, true );\\r\\n\\/\\/$use_slide_pane_link = $modx->getOption(\'use_slideLinkTpl\', $scriptProperties, true );\\r\\n$use_html_caption = $modx->getOption(\'use_htmlCaptionTpl\', $scriptProperties, true );\\r\\n\\r\\n\\r\\n$ignore_time = (boolean) $modx->getOption(\'ignoreTime\', $scriptProperties, false );\\r\\n$ignore_endtime = (boolean) $modx->getOption(\'ignoreEndTime\', $scriptProperties, false );\\r\\n\\/\\/$head = $modx->getOption(\'headTpl\', $scriptProperties, $skin.\'\' );\\r\\n\\r\\n$loadJQuery = $modx->getOption(\'loadJQuery\', $scriptProperties, \'true\');\\r\\n\\r\\n\\/\\/ add package\\r\\n$s_path = $modx->getOption(\'core_path\').\'components\\/slideshowmanager\\/model\\/\';\\r\\n$modx->addPackage(\'slideshowmanager\', $s_path);\\r\\n$slide_dir = MODX_ASSETS_URL.\'components\\/slideshowmanager\\/uploads\\/\';\\r\\n\\r\\n$output = \'\';\\r\\n\\r\\n\\/\\/ get the slides for the album\\r\\n$query = $modx->newQuery(\'jgSlideshowSlide\');\\r\\n$today = date(\\"Y-m-d\\");\\r\\n$c = array(\\r\\n    \'slideshow_album_id\' => $album_id, \\r\\n    \'slide_status\' => \'live\'\\r\\n    );\\r\\nif ( !$ignore_time ) {\\r\\n    $c[\'start_date:<=\'] = $today;\\r\\n    if ( !$ignore_endtime ) {\\r\\n        $c[\'end_date:>=\'] = $today;\\r\\n    }\\r\\n}\\r\\n\\r\\n$query->where($c);\\r\\n$query->sortby(\'sequence\',\'ASC\');\\r\\n\\r\\n\\/\\/$oldTarget = $modx->setLogTarget(\'HTML\');\\r\\n\\/\\/ your code here\\r\\n\\/\\/$c->limit(5);\\r\\n\\/\\/$slides = $modx->getCollection(\'jgSlideshowSlide\',$query);\\r\\n\\/\\/$output .= $query->toSQL();\\r\\n\\r\\n\\/\\/ restore the default logging (to file)\\r\\n\\/\\/$modx->setLogTarget($oldTarget);\\r\\n\\r\\n$slide_output = \'\';\\r\\n$html_cap_output = \'\';\\r\\n$count = 0;\\r\\n\\/\\/foreach( $slides as $slide ){\\r\\n\\r\\n$query->prepare();\\r\\n$sql = $query->toSQL();\\r\\n$sql = str_replace(\'`jgSlideshowSlide_\', \'`\', $sql);\\/\\/ not sure why the prefix gets there: `jgSlideshowSlide_\\r\\n\\/\\/error_log($sql);\\r\\n$stmt = $modx->query($sql);\\r\\nwhile ( $slide_data = $stmt->fetch(PDO::FETCH_ASSOC) ) {\\r\\n    ++$count;\\r\\n    \\/\\/$output .= \'<br>Slide: \'.$count;\\r\\n    \\/\\/ go thourgh each image\\r\\n    \\/\\/$slide_data = $slide->toArray();\\r\\n    $url = $slide_data[\'url\'];\\/\\/->get(\'url\');\\r\\n    $slide_data[\'src\'] = $slide_dir.$slide_data[\'file_path\']; \\r\\n    if ( empty($url) ) {\\r\\n        $slide_output .= \'\\r\\n            \'.$modx->getChunk($slide_pane, $slide_data);\\r\\n    } else {\\r\\n        $slide_output .= \'\\r\\n            \'.$modx->getChunk($slide_pane_link, $slide_data);\\r\\n    }\\r\\n    \\/\\/ create html caption\\r\\n    \\/\\/if ( !empty($slide_data[\'html\']) || !empty($slide_data[\'description\']) ){\\r\\n    if ( $use_html_caption ) {\\r\\n        $html_cap_output .= $modx->getChunk($html_caption, $slide_data);\\r\\n    }\\r\\n    \\/\\/}\\r\\n    \\r\\n}\\r\\n\\/\\/ get the Album data and merge with slides and caption\\r\\n$slideAlbum = $modx->getObject(\'jgSlideshowAlbum\', array(\'id\' => $album_id));\\r\\n$album_data = array();\\r\\nif ( is_object($slideAlbum) ) {\\r\\n    $album_data = $slideAlbum->toArray();\\r\\n    \\/\\/ load the CSS file\\r\\n    $album_data[\'slide_div_id\'] = $slide_div_id;\\r\\n    $album_data[\'slide_count\'] = $count;\\r\\n    $album_data[\'loadJQuery\'] = $loadJQuery;\\r\\n    if ( $use_head ) {\\r\\n        $modx->regClientStartupHTMLBlock($modx->getChunk($head, $album_data));\\r\\n    }\\r\\n    \\r\\n    $album_data[\'slide_panes\'] = $slide_output;\\r\\n    $album_data[\'html_caption\'] = $html_cap_output;\\r\\n}\\r\\nif ( $use_slide_holder ){\\r\\n    $output .= $modx->getChunk($slide_holder, $album_data);\\r\\n} else {\\r\\n    $output = $slide_output;\\r\\n}\\r\\n$toPlaceholder = $modx->getOption(\'toPlaceholder\', $scriptProperties, \'\' );\\r\\nif ( !empty($toPlaceholder) ) {\\r\\n    $modx->setPlaceholder($toPlaceholder, $output);\\r\\n    return \'\';\\r\\n}\\r\\nreturn $output;","locked":0,"properties":null,"moduleguid":"","static":0,"static_file":"","content":"\\/**\\r\\n * Slideshow\\r\\n * \\r\\n * A slideshow snippet for MODX Revolution\\r\\n * \\r\\n * @package slideshowmanager\\r\\n *\\/\\r\\n\\/\\/ require_once $modx->getOption(\'formit.core_path\',null,$modx->getOption(\'core_path\').\'components\\/formit\\/\').\'model\\/formit\\/formit.class.php\';\\r\\n\\/\\/ get the user input (inputName, the input array, default value)\\r\\n$album_id = $modx->getOption(\'album_id\', $scriptProperties, 1);\\r\\n$slide_div_id = $modx->getOption(\'slide_div_id\', $scriptProperties, \'slider\');\\r\\n\\r\\n$skin = $modx->getOption(\'skin\', $scriptProperties, \'nivo\');\\r\\n$head = $modx->getOption(\'headTpl\', $scriptProperties, $skin.\'_headTpl\' );\\r\\n$slide_holder = $modx->getOption(\'slideHolderTpl\', $scriptProperties, $skin.\'_slideHolderTpl\' );\\r\\n$slide_pane = $modx->getOption(\'slidePaneTpl\', $scriptProperties, $skin.\'_slidePaneTpl\' );\\r\\n$slide_pane_link = $modx->getOption(\'slideLinkTpl\', $scriptProperties, $skin.\'_slideLinkTpl\' );\\r\\n$slide_pane_link = $modx->getOption(\'slidePaneLinkTpl\', $scriptProperties, $slide_pane_link );\\r\\n\\r\\n$html_caption = $modx->getOption(\'htmlCaptionTpl\', $scriptProperties, $skin.\'_htmlCaptionTpl\' );\\r\\n\\r\\n$use_head = $modx->getOption(\'use_headTpl\', $scriptProperties, true );\\r\\n$use_slide_holder = $modx->getOption(\'use_slideHolderTpl\', $scriptProperties, true );\\r\\n\\/\\/$use_slide_pane = $modx->getOption(\'use_slidePaneTpl\', $scriptProperties, true );\\r\\n\\/\\/$use_slide_pane_link = $modx->getOption(\'use_slideLinkTpl\', $scriptProperties, true );\\r\\n$use_html_caption = $modx->getOption(\'use_htmlCaptionTpl\', $scriptProperties, true );\\r\\n\\r\\n\\r\\n$ignore_time = (boolean) $modx->getOption(\'ignoreTime\', $scriptProperties, false );\\r\\n$ignore_endtime = (boolean) $modx->getOption(\'ignoreEndTime\', $scriptProperties, false );\\r\\n\\/\\/$head = $modx->getOption(\'headTpl\', $scriptProperties, $skin.\'\' );\\r\\n\\r\\n$loadJQuery = $modx->getOption(\'loadJQuery\', $scriptProperties, \'true\');\\r\\n\\r\\n\\/\\/ add package\\r\\n$s_path = $modx->getOption(\'core_path\').\'components\\/slideshowmanager\\/model\\/\';\\r\\n$modx->addPackage(\'slideshowmanager\', $s_path);\\r\\n$slide_dir = MODX_ASSETS_URL.\'components\\/slideshowmanager\\/uploads\\/\';\\r\\n\\r\\n$output = \'\';\\r\\n\\r\\n\\/\\/ get the slides for the album\\r\\n$query = $modx->newQuery(\'jgSlideshowSlide\');\\r\\n$today = date(\\"Y-m-d\\");\\r\\n$c = array(\\r\\n    \'slideshow_album_id\' => $album_id, \\r\\n    \'slide_status\' => \'live\'\\r\\n    );\\r\\nif ( !$ignore_time ) {\\r\\n    $c[\'start_date:<=\'] = $today;\\r\\n    if ( !$ignore_endtime ) {\\r\\n        $c[\'end_date:>=\'] = $today;\\r\\n    }\\r\\n}\\r\\n\\r\\n$query->where($c);\\r\\n$query->sortby(\'sequence\',\'ASC\');\\r\\n\\r\\n\\/\\/$oldTarget = $modx->setLogTarget(\'HTML\');\\r\\n\\/\\/ your code here\\r\\n\\/\\/$c->limit(5);\\r\\n\\/\\/$slides = $modx->getCollection(\'jgSlideshowSlide\',$query);\\r\\n\\/\\/$output .= $query->toSQL();\\r\\n\\r\\n\\/\\/ restore the default logging (to file)\\r\\n\\/\\/$modx->setLogTarget($oldTarget);\\r\\n\\r\\n$slide_output = \'\';\\r\\n$html_cap_output = \'\';\\r\\n$count = 0;\\r\\n\\/\\/foreach( $slides as $slide ){\\r\\n\\r\\n$query->prepare();\\r\\n$sql = $query->toSQL();\\r\\n$sql = str_replace(\'`jgSlideshowSlide_\', \'`\', $sql);\\/\\/ not sure why the prefix gets there: `jgSlideshowSlide_\\r\\n\\/\\/error_log($sql);\\r\\n$stmt = $modx->query($sql);\\r\\nwhile ( $slide_data = $stmt->fetch(PDO::FETCH_ASSOC) ) {\\r\\n    ++$count;\\r\\n    \\/\\/$output .= \'<br>Slide: \'.$count;\\r\\n    \\/\\/ go thourgh each image\\r\\n    \\/\\/$slide_data = $slide->toArray();\\r\\n    $url = $slide_data[\'url\'];\\/\\/->get(\'url\');\\r\\n    $slide_data[\'src\'] = $slide_dir.$slide_data[\'file_path\']; \\r\\n    if ( empty($url) ) {\\r\\n        $slide_output .= \'\\r\\n            \'.$modx->getChunk($slide_pane, $slide_data);\\r\\n    } else {\\r\\n        $slide_output .= \'\\r\\n            \'.$modx->getChunk($slide_pane_link, $slide_data);\\r\\n    }\\r\\n    \\/\\/ create html caption\\r\\n    \\/\\/if ( !empty($slide_data[\'html\']) || !empty($slide_data[\'description\']) ){\\r\\n    if ( $use_html_caption ) {\\r\\n        $html_cap_output .= $modx->getChunk($html_caption, $slide_data);\\r\\n    }\\r\\n    \\/\\/}\\r\\n    \\r\\n}\\r\\n\\/\\/ get the Album data and merge with slides and caption\\r\\n$slideAlbum = $modx->getObject(\'jgSlideshowAlbum\', array(\'id\' => $album_id));\\r\\n$album_data = array();\\r\\nif ( is_object($slideAlbum) ) {\\r\\n    $album_data = $slideAlbum->toArray();\\r\\n    \\/\\/ load the CSS file\\r\\n    $album_data[\'slide_div_id\'] = $slide_div_id;\\r\\n    $album_data[\'slide_count\'] = $count;\\r\\n    $album_data[\'loadJQuery\'] = $loadJQuery;\\r\\n    if ( $use_head ) {\\r\\n        $modx->regClientStartupHTMLBlock($modx->getChunk($head, $album_data));\\r\\n    }\\r\\n    \\r\\n    $album_data[\'slide_panes\'] = $slide_output;\\r\\n    $album_data[\'html_caption\'] = $html_cap_output;\\r\\n}\\r\\nif ( $use_slide_holder ){\\r\\n    $output .= $modx->getChunk($slide_holder, $album_data);\\r\\n} else {\\r\\n    $output = $slide_output;\\r\\n}\\r\\n$toPlaceholder = $modx->getOption(\'toPlaceholder\', $scriptProperties, \'\' );\\r\\nif ( !empty($toPlaceholder) ) {\\r\\n    $modx->setPlaceholder($toPlaceholder, $output);\\r\\n    return \'\';\\r\\n}\\r\\nreturn $output;"}',
+        'guid' => '1d4d98839b0d61255cdc459f79841489',
+        'native_key' => 1,
+        'signature' => '939703fdc478dea59f89f1d86f5c3342',
+      ),
+      '0490c2ecd0de671bbd007ecf1dadd4ef' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":2,"source":0,"property_preprocess":0,"name":"updateSlideShow","description":"Run this to update the database to 1.1 if you have issues after updating","editor_type":0,"category":0,"cache_type":0,"snippet":"$s_path = $modx->getOption(\'core_path\').\'components\\/slideshowmanager\\/model\\/\';\\r\\n$modx->addPackage(\'slideshowmanager\', $s_path);\\r\\n\\r\\n$manager = $modx->getManager();\\r\\n$modx->setLogLevel(modX::LOG_LEVEL_ERROR);\\r\\n\\r\\n$modx->exec(\\"ALTER TABLE {$modx->getTableName(\'jgSlideshowAlbum\')}\\r\\n    ADD COLUMN `constrain` TINYINT DEFAULT \'1\' NOT NULL AFTER `file_size_limit`,\\r\\n    ADD COLUMN `image_instructions` MEDIUMTEXT NULL AFTER `description`,\\r\\n    ADD COLUMN `advanced_instructions` MEDIUMTEXT NULL AFTER `image_instructions`\\");","locked":0,"properties":null,"moduleguid":"","static":0,"static_file":"","content":"$s_path = $modx->getOption(\'core_path\').\'components\\/slideshowmanager\\/model\\/\';\\r\\n$modx->addPackage(\'slideshowmanager\', $s_path);\\r\\n\\r\\n$manager = $modx->getManager();\\r\\n$modx->setLogLevel(modX::LOG_LEVEL_ERROR);\\r\\n\\r\\n$modx->exec(\\"ALTER TABLE {$modx->getTableName(\'jgSlideshowAlbum\')}\\r\\n    ADD COLUMN `constrain` TINYINT DEFAULT \'1\' NOT NULL AFTER `file_size_limit`,\\r\\n    ADD COLUMN `image_instructions` MEDIUMTEXT NULL AFTER `description`,\\r\\n    ADD COLUMN `advanced_instructions` MEDIUMTEXT NULL AFTER `image_instructions`\\");"}',
+        'guid' => 'ecfa941d45b408fee45852d61a4b6ada',
+        'native_key' => 2,
+        'signature' => 'a019efa88a0922c07d6040dbea5f2128',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'slideshowmanager',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"slideshowmanager-1.1.4-pl\\/modCategory\\/9b15fd0fecddc2d201cb21665bd8d33e.install.script.resolver","type":"php","name":"install.script"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"slideshowmanager-1.1.4-pl\\/modCategory\\/9b15fd0fecddc2d201cb21665bd8d33e\\/1\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"slideshowmanager"}',
+    ),
+    2 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"slideshowmanager-1.1.4-pl\\/modCategory\\/9b15fd0fecddc2d201cb21665bd8d33e\\/2\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"slideshowmanager"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"slideshowmanager-1.1.4-pl\\/modCategory\\/9b15fd0fecddc2d201cb21665bd8d33e.tables.resolver.resolver","type":"php","name":"tables.resolver"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"slideshowmanager-1.1.4-pl\\/modCategory\\/9b15fd0fecddc2d201cb21665bd8d33e.setupoptions.resolver.resolver","type":"php","name":"setupoptions.resolver"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3d01bd0f4e9912a2bcd6f41255905fd0',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '9b15fd0fecddc2d201cb21665bd8d33e',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"SlideshowManager"}',
+);

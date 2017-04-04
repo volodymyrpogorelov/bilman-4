@@ -1,0 +1,50 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Action' => 
+    array (
+      '6b86e39aa0e3571873cbadcb59bc6a51' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'namespace',
+          1 => 'controller',
+        ),
+        'class' => 'modAction',
+        'object' => '{"id":1,"namespace":"slideshowmanager","controller":"controllers\\/index","haslayout":1,"lang_topics":"slideshowmanager:default","assets":"","help_url":"","parent":0}',
+        'guid' => '68b027e108f3deb019aad867f897cb8f',
+        'native_key' => 1,
+        'signature' => 'a4780f8acadde8e3fe5e91aaae55788f',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'slideshowmanager',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '4a7cb3fe93deff95bceb74c93ce70ac3',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '85aa7d002560c90f3a76ed6fd7928e6c',
+  'native_key' => 'slideshowmanager',
+  'object' => '{"text":"slideshowmanager","parent":"components","action":1,"description":"slideshowmanager.desc","icon":"","menuindex":0,"params":"","handler":"","permissions":"","namespace":"core"}',
+);

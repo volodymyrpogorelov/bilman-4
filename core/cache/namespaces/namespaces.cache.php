@@ -47,6 +47,12 @@
     'path' => '/home/pogorelov/Tmp/tmp/modx/core/components/pdotools/',
     'assets_path' => '',
   ),
+  'slideshowmanager' => 
+  array (
+    'name' => 'slideshowmanager',
+    'path' => '/home/pogorelov/Tmp/tmp/modx/core/components/slideshowmanager/',
+    'assets_path' => '',
+  ),
   'themebootstrap' => 
   array (
     'name' => 'themebootstrap',

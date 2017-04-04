@@ -1,0 +1,102 @@
+<link rel="stylesheet" href="[[++assets_url]]/components/slideshowmanager/nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+<style type="text/css">
+#slider-wrapper {
+    width:[[+file_width]]px;
+    height:[[+file_height:add=`60`]]px;
+}
+
+#slider {
+  position:relative;
+    width:[[+file_width]]px;
+    height:[[+file_height]]px;
+  background:url([[++assets_url]]/components/slideshowmanager/nivo-slider/demo/images/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+  position:absolute;
+  top:0px;
+  left:0px;
+  display:none;
+}
+#slider a {
+  border:0;
+  display:block;
+}
+.nivo-controlNav {
+  position:absolute;
+  left:20px;
+  bottom:-42px;
+}
+.nivo-controlNav a {
+  display:block;
+  width:22px;
+  height:22px;
+  background:url([[++assets_url]]/components/slideshowmanager/nivo-slider/demo/images/bullets.png) no-repeat;
+  text-indent:-9999px;
+  border:0;
+  margin-right:3px;
+  float:left;
+}
+.nivo-controlNav a.active {
+  background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+  display:block;
+  width:30px;
+  height:30px;
+  background:url([[++assets_url]]/components/slideshowmanager/nivo-slider/demo/images/arrows.png) no-repeat;
+  text-indent:-9999px;
+  border:0;
+}
+a.nivo-nextNav {
+  background-position:-30px 0;
+  right:15px;
+}
+a.nivo-prevNav {
+  left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a {
+    color:#efe9d1;
+    text-decoration:underline;
+}
+</style>
+<!-- jQuery -->
+[[+loadJQuery:equals=`true`:then=`<script type="text/javascript" src="[[++assets_url]]/components/slideshowmanager/nivo-slider/demo/scripts/jquery-1.9.0.min.js"></script>`:else=``]]
+
+<script type="text/javascript" src="[[++assets_url]]/components/slideshowmanager/nivo-slider/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#[[+slide_div_id]]').nivoSlider({
+        effect: 'random', // Specify sets like: 'fold,fade,sliceDown'
+        slices: 15, // For slice animations
+        boxCols: 8, // For box animations
+        boxRows: 4, // For box animations
+        animSpeed: 500, // Slide transition speed
+        pauseTime: 3000, // How long each slide will show
+        startSlide: 0, // Set starting Slide (0 index)
+        directionNav: true, // Next & Prev navigation
+        directionNavHide: true, // Only show on hover
+        controlNav: true, // 1,2,3... navigation
+        controlNavThumbs: false, // Use thumbnails for Control Nav
+        controlNavThumbsFromRel: false, // Use image rel for thumbs
+        controlNavThumbsSearch: '.jpg', // Replace this with...
+        controlNavThumbsReplace: '_thumb.jpg', // ...this in thumb Image src
+        keyboardNav: true, // Use left & right arrows
+        pauseOnHover: true, // Stop animation while hovering
+        manualAdvance: false, // Force manual transitions
+        captionOpacity: 0.8, // Universal caption opacity
+        prevText: 'Prev', // Prev directionNav text
+        nextText: 'Next', // Next directionNav text
+        beforeChange: function(){}, // Triggers before a slide transition
+        afterChange: function(){}, // Triggers after a slide transition
+        slideshowEnd: function(){}, // Triggers after all slides have been shown
+        lastSlide: function(){}, // Triggers when last slide is shown
+        afterLoad: function(){} // Triggers when slider has loaded
+   });
+});
+</script>
