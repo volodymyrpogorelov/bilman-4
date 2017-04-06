@@ -440,7 +440,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 <script src="/modx/assets/components/bootstrap/dist/js/bootstrap.min.js"></script>
 ',
     '[[pdoResources?tpl=`@INLINE <p>[[+idx]]. <a href="[[+link]]">[[+pagetitle]]</a></p>`&returnIds=``&showLog=``&fastMode=``&sortby=`publishedon`&sortbyTV=``&sortbyTVType=``&sortdir=`DESC`&sortdirTV=`ASC`&limit=`10`&offset=`0`&depth=`10`&outputSeparator=`
-`&toPlaceholder=``&parents=`0`&includeContent=``&includeTVs=``&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=`1`&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`ebdf8c041571b11de8db3ac188f64962`]]' => '',
+`&toPlaceholder=``&parents=`0`&includeContent=``&includeTVs=``&prepareTVs=`1`&processTVs=``&tvPrefix=`tv.`&tvFilters=``&tvFiltersAndDelimiter=`,`&tvFiltersOrDelimiter=`||`&where=``&showUnpublished=``&showDeleted=``&showHidden=`1`&hideContainers=``&context=``&idx=``&first=``&last=``&tplFirst=``&tplLast=``&tplOdd=``&tplWrapper=``&wrapIfEmpty=``&totalVar=`page.total`&resources=``&tplCondition=``&tplOperator=`==`&conditionalTpls=``&select=``&toSeparatePlaceholders=``&loadModels=``&scheme=``&useWeblinkUrl=`1`&plPrefix=``&maxLimit=`100`&page=`1`&pageVarKey=`page`&pageLimit=`5`&element=`pdoResources`&pageNavVar=`page.nav`&pageCountVar=`pageCount`&pageLinkScheme=``&tplPage=`@INLINE <li><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageWrapper=`@INLINE <ul class="pagination">[[+first]][[+prev]][[+pages]][[+next]][[+last]]</ul>`&tplPageActive=`@INLINE <li class="active"><a href="[[+href]]">[[+pageNo]]</a></li>`&tplPageFirst=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_first]]</a></li>`&tplPageLast=`@INLINE <li class="control"><a href="[[+href]]">[[%pdopage_last]]</a></li>`&tplPagePrev=`@INLINE <li class="control"><a href="[[+href]]">&laquo;</a></li>`&tplPageNext=`@INLINE <li class="control"><a href="[[+href]]">&raquo;</a></li>`&tplPageSkip=`@INLINE <li class="disabled"><span>...</span></li>`&tplPageFirstEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_first]]</span></li>`&tplPageLastEmpty=`@INLINE <li class="disabled"><span>[[%pdopage_last]]</span></li>`&tplPagePrevEmpty=`@INLINE <li class="disabled"><span>&laquo;</span></li>`&tplPageNextEmpty=`@INLINE <li class="disabled"><span>&raquo;</span></li>`&cache=``&cacheTime=`3600`&cacheAnonymous=``&ajax=``&ajaxMode=``&ajaxElemWrapper=`#pdopage`&ajaxElemRows=`#pdopage .rows`&ajaxElemPagination=`#pdopage .pagination`&ajaxElemLink=`#pdopage .pagination a`&ajaxElemMore=`#pdopage .btn-more`&ajaxTplMore=`@INLINE <button class="btn btn-default btn-more">[[%pdopage_more]]</button>`&ajaxHistory=``&setMeta=`1`&strictMode=`1`&request=`4fe5a533a1db92817081bb71bab00c28`]]' => '',
   ),
   'sourceCache' => 
   array (
@@ -803,20 +803,19 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 .nivo-controlNav {
   position:relative;
-  left:20px;
-  bottom:-42px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  display: table;
 }
 .nivo-controlNav a {
-  display:block;
+  display:inline-block;
   width:22px;
   height:22px;
   background:url([[++assets_url]]/components/slideshowmanager/nivo-slider/demo/images/bullets.png) no-repeat;
   text-indent:-9999px;
   border:0;
-  margin-right:3px;
   float:left;
+  margin-left: auto;
+  margin-right: auto;
 }
 .nivo-controlNav a.active {
   background-position:0 -22px;
@@ -839,6 +838,7 @@ a.nivo-prevNav {
 }
 
 .nivo-caption {
+    background: transparent;
     text-shadow:none;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -913,20 +913,19 @@ $(window).load(function() {
 }
 .nivo-controlNav {
   position:relative;
-  left:20px;
-  bottom:-42px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  display: table;
 }
 .nivo-controlNav a {
-  display:block;
+  display:inline-block;
   width:22px;
   height:22px;
   background:url([[++assets_url]]/components/slideshowmanager/nivo-slider/demo/images/bullets.png) no-repeat;
   text-indent:-9999px;
   border:0;
-  margin-right:3px;
   float:left;
+  margin-left: auto;
+  margin-right: auto;
 }
 .nivo-controlNav a.active {
   background-position:0 -22px;
@@ -949,6 +948,7 @@ a.nivo-prevNav {
 }
 
 .nivo-caption {
+    background: transparent;
     text-shadow:none;
     font-family: Helvetica, Arial, sans-serif;
 }

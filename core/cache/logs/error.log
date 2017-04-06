@@ -430,3 +430,5 @@
 [2017-03-30 08:35:59] (ERROR @ /home/pogorelov/Tmp/tmp/modx/core/model/modx/modcachemanager.class.php : 344) Error caching lexicon topic lexicon/en/core/resource
 [2017-04-03 11:51:57] (ERROR @ /home/pogorelov/Tmp/tmp/modx/core/model/modx/modcachemanager.class.php : 344) Error caching lexicon topic lexicon/en/core/resource
 [2017-04-04 16:13:05] (ERROR @ /home/pogorelov/Tmp/tmp/modx/core/model/modx/modcachemanager.class.php : 344) Error caching lexicon topic lexicon/en/core/resource
+[2017-04-05 11:18:35] (ERROR @ /home/pogorelov/Tmp/tmp/modx/core/xpdo/om/xpdoobject.class.php : 811) jgSlideshowSlide: Attempt to set NOT NULL field sequence to NULL
+[2017-04-06 17:03:38] (ERROR @ /home/pogorelov/Tmp/tmp/modx/core/model/modx/modcachemanager.class.php : 344) Error caching lexicon topic lexicon/en/core/resource

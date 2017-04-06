@@ -13,7 +13,7 @@ html, body, .container {height: 100%;}
       margin-top: 13.8mm;
       min-height: 100%;
       border-radius: 5px 5px 10px 10px;
-      border: 2px solid #044f97;
+      border: 1px solid #044f97;
       
   }
   
@@ -74,12 +74,17 @@ html, body, .container {height: 100%;}
     background-image: url(/modx/assets/images/old-photos-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 750px;
-    height: 524px;
-    padding-top:2%;
+    width: 715px;
+    height: 500px;
+    padding-top:4%;
+    padding-right: 4%;
+    margin: 0 auto;
+}
+#slider{
+    background-color: transparent;
 }
   #slider-wrapper{
-      background-color: #fffbf3;
+      background: transparent;
       margin-left: auto;
       margin-right: auto;
   }
