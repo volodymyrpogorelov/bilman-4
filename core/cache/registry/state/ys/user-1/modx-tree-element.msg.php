@@ -21,4 +21,5 @@ return array (
   18 => '/root/n_type_snippet/n_snippet_category_25',
   19 => '/root/n_category/n_category_25',
   20 => '/root/n_type_chunk/n_chunk_category_7',
+  21 => '/root/n_type_chunk/n_chunk_category_9',
 );

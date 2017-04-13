@@ -1,4 +1,4 @@
-html, body, .container {height: 100%;}
+html, body, .container { height: 100%; }
  
   body{
       background-image: url(/modx/assets/images/ice.jpg);
@@ -8,7 +8,7 @@ html, body, .container {height: 100%;}
       padding: 0;
   }
   
-  #content{
+  #content {
       background-image: url(/modx/assets/images/text_bckg_seamless.jpg);
       margin-top: 13.8mm;
       min-height: 100%;
@@ -30,7 +30,7 @@ html, body, .container {height: 100%;}
       margin: 0;
       height: 46mm;
   }
-  #page-header-left-img{
+  #page-header-left-img {
       position: absolute;
       z-index: 1;
       width: 95mm;
@@ -41,7 +41,7 @@ html, body, .container {height: 100%;}
       background-size: cover;
   }
   
-  #page-header-right-img{
+  #page-header-right-img {
       position: absolute;
       right: 27mm;
       top: 0mm;
@@ -80,19 +80,71 @@ html, body, .container {height: 100%;}
     padding-right: 4%;
     margin: 0 auto;
 }
-#slider{
+#slider {
     background-color: transparent;
 }
-  #slider-wrapper{
+  #slider-wrapper {
       background: transparent;
       margin-left: auto;
       margin-right: auto;
   }
   
-  #footer{
+  #footer .row {
+      padding: 15px;
+  }
+  
+  #footer {
       background: brown;
+      color: white;
       margin-top: 1px;
-      min-height: 6%;
+      min-height: 4%;
       border-radius: 7px;
       border: 1px solid #044f97;
   }
+#copyright-container {
+    display: table;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.footer-social-title {
+      margin: 0 auto;
+      padding: 0;
+      display: table;
+}
+
+.social-l {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        display: table;
+}
+  
+.social-i {
+      float: left;
+      padding: 0;
+      margin: 10px 10px 0 0;
+}
+.social-i a {
+      background-repeat: no-repeat;
+      width: 36px;
+      height: 36px;
+      background-size: contain;
+      display: block;
+}
+.vk-icon a {
+      background-image: url(/modx/assets/images/vk_icon.png);
+}
+.facebook-icon a {
+      background-image: url(/modx/assets/images/facebook_icon.png);
+}
+
+#footer-contacts{
+    display: table;
+    margin: 0 auto;
+}
+
+#footer-contacts a {
+    color: white;
+}
+  
